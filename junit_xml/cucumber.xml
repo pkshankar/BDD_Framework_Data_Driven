@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.249019">
-    <testcase classname="Create gmail account feature" name="Create gmail account scenario" time="21.249019">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.48148">
+    <testcase classname="Create gmail account feature" name="Create gmail account scenario" time="58.48148">
         <system-out>
             <![CDATA[When user is on gmail create account page...................................passed
 Then user enters firstname and lastname and username and password and confirmPassword.passed

@@ -91,9 +91,45 @@ formatter.scenario({
     {
       "line": 26,
       "value": "#\t| Ron\t\t| Cloney\t| ronc\t   | ronc345  | ronc345 \t\t|"
+    },
+    {
+      "line": 28,
+      "value": "# Using DataTable with list"
+    },
+    {
+      "line": 30,
+      "value": "#Scenario: Create gmail account scenario"
+    },
+    {
+      "line": 31,
+      "value": "#"
+    },
+    {
+      "line": 32,
+      "value": "#When user is on gmail create account page"
+    },
+    {
+      "line": 33,
+      "value": "#Then user enters firstname and lastname and username and password and confirmPassword"
+    },
+    {
+      "line": 34,
+      "value": "#| Eugene | cabral | eugenecabral | eugenec123 | eugenec123 |"
+    },
+    {
+      "line": 35,
+      "value": "#Then user clicks on next"
+    },
+    {
+      "line": 36,
+      "value": "#Then user quits the browser"
+    },
+    {
+      "line": 39,
+      "value": "# Using DataTable with map"
     }
   ],
-  "line": 28,
+  "line": 41,
   "name": "Create gmail account scenario",
   "description": "",
   "id": "create-gmail-account-feature;create-gmail-account-scenario",
@@ -101,63 +137,93 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 30,
+  "line": 43,
   "name": "user is on gmail create account page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 31,
+  "line": 44,
   "name": "user enters firstname and lastname and username and password and confirmPassword",
   "rows": [
     {
       "cells": [
-        "Eugene",
-        "cabral",
-        "eugenecabral",
-        "eugenec123",
-        "eugenec123"
+        "firstname",
+        "lastname",
+        "username",
+        "password",
+        "confirmPassword"
       ],
-      "line": 32
+      "line": 45
+    },
+    {
+      "cells": [
+        "Roda",
+        "Still",
+        "rodac",
+        "rodac123",
+        "rodac123"
+      ],
+      "line": 46
+    },
+    {
+      "cells": [
+        "Shannon",
+        "Lawrence",
+        "shannonl",
+        "shannonl234",
+        "shannonl123"
+      ],
+      "line": 47
+    },
+    {
+      "cells": [
+        "Jerry",
+        "Peter",
+        "jerryp",
+        "jerryp654",
+        "jerryp654"
+      ],
+      "line": 48
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 49,
   "name": "user clicks on next",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 34,
+  "line": 50,
   "name": "user quits the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Create_Gmail_Account_Using_Data_Table_Step_Definition.user_is_on_gmail_create_account_page()"
+  "location": "Create_Gmail_Account_Using_Data_Table_Maps_Step_Definition.user_is_on_gmail_create_account_page()"
 });
 formatter.result({
-  "duration": 13208176827,
+  "duration": 27601959939,
   "status": "passed"
 });
 formatter.match({
-  "location": "Create_Gmail_Account_Using_Data_Table_Step_Definition.user_enters_account_details(DataTable)"
+  "location": "Create_Gmail_Account_Using_Data_Table_Maps_Step_Definition.user_enters_account_details(DataTable)"
 });
 formatter.result({
-  "duration": 623067021,
+  "duration": 28567330633,
   "status": "passed"
 });
 formatter.match({
-  "location": "Create_Gmail_Account_Using_Data_Table_Step_Definition.user_clicks_on_next()"
+  "location": "Create_Gmail_Account_Using_Data_Table_Maps_Step_Definition.user_clicks_on_next()"
 });
 formatter.result({
-  "duration": 5359645755,
+  "duration": 621783707,
   "status": "passed"
 });
 formatter.match({
-  "location": "Create_Gmail_Account_Using_Data_Table_Step_Definition.user_quits_the_browser()"
+  "location": "Create_Gmail_Account_Using_Data_Table_Maps_Step_Definition.user_quits_the_browser()"
 });
 formatter.result({
-  "duration": 2058129243,
+  "duration": 1690405263,
   "status": "passed"
 });
 });
