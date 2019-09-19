@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.48148">
-    <testcase classname="Create gmail account feature" name="Create gmail account scenario" time="58.48148">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.327304">
+    <testcase classname="Gmail test feature" name="Gmail login scenario" time="0.327222">
         <system-out>
-            <![CDATA[When user is on gmail create account page...................................passed
-Then user enters firstname and lastname and username and password and confirmPassword.passed
-Then user clicks on next....................................................passed
-Then user quits the browser.................................................passed
+            <![CDATA[Given This is a gmail login scenario........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Gmail test feature" name="Gmail send email scenario" time="0.000082">
+        <system-out>
+            <![CDATA[Given this is a gmail send email scenario...................................passed
 ]]>
         </system-out>
     </testcase>
