@@ -3,84 +3,102 @@
     "line": 1,
     "elements": [
       {
-        "comments": [
+        "before": [
           {
-            "line": 3,
-            "value": "# This feature is just for learning cucumber tags concept"
+            "result": {
+              "duration": 309325,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.before_search_feature()"
+            }
+          },
+          {
+            "result": {
+              "duration": 407715,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.setUp()"
+            }
           }
         ],
-        "line": 6,
-        "name": "Gmail login scenario",
+        "line": 9,
+        "name": "Hooks and tagged hooks concept scenario-2",
         "description": "",
-        "id": "gmail-test-feature;gmail-login-scenario",
+        "id": "hooks-and-tagged-hooks-concept-feature;hooks-and-tagged-hooks-concept-scenario-2",
+        "after": [
+          {
+            "result": {
+              "duration": 279242,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.after_search_feature()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66537,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 327222432,
+              "duration": 269317424,
               "status": "passed"
             },
+            "line": 10,
+            "name": "scenario-2-given",
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.scenario_2_given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221907,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "scenario-2-when",
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.scenario_2_when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70430,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "scenario-2-then",
+            "match": {
+              "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.scenario_2_then()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
             "line": 8,
-            "name": "This is a gmail login scenario",
-            "match": {
-              "location": "Gmail_Tagging_Cucumber_Step_Definition.this_is_a_gmail_login_scenario()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@GmailLogin"
-          },
-          {
-            "line": 5,
-            "name": "@SmokeTest"
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "Gmail send email scenario",
-        "description": "",
-        "id": "gmail-test-feature;gmail-send-email-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 81755,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "this is a gmail send email scenario",
-            "match": {
-              "location": "Gmail_Tagging_Cucumber_Step_Definition.this_is_a_gmail_send_email_scenario()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "line": 10,
-            "name": "@GmailSendEmail"
-          },
-          {
-            "line": 10,
-            "name": "@SmokeTest"
-          },
-          {
-            "line": 10,
-            "name": "@RegressionTest"
+            "name": "@SearchFeature"
           }
         ]
       }
     ],
-    "name": "Gmail test feature",
+    "name": "Hooks and tagged hooks concept feature",
     "description": "",
-    "id": "gmail-test-feature",
+    "id": "hooks-and-tagged-hooks-concept-feature",
     "keyword": "Feature",
-    "uri": "C:/Users/pkshank/eclipse-workspace/BDD_Framework_Data_Driven/src/test/java/features/gmail.feature"
+    "uri": "C:/Users/pkshank/eclipse-workspace/BDD_Framework_Data_Driven/src/test/java/features/hooks_and_tagged_hooks.feature"
   }
 ]

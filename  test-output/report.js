@@ -1,79 +1,75 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/pkshank/eclipse-workspace/BDD_Framework_Data_Driven/src/test/java/features/gmail.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/pkshank/eclipse-workspace/BDD_Framework_Data_Driven/src/test/java/features/hooks_and_tagged_hooks.feature");
 formatter.feature({
   "line": 1,
-  "name": "Gmail test feature",
+  "name": "Hooks and tagged hooks concept feature",
   "description": "",
-  "id": "gmail-test-feature",
+  "id": "hooks-and-tagged-hooks-concept-feature",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "comments": [
-    {
-      "line": 3,
-      "value": "# This feature is just for learning cucumber tags concept"
-    }
-  ],
-  "line": 6,
-  "name": "Gmail login scenario",
-  "description": "",
-  "id": "gmail-test-feature;gmail-login-scenario",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@GmailLogin"
-    },
-    {
-      "line": 5,
-      "name": "@SmokeTest"
-    }
-  ]
+formatter.before({
+  "duration": 309325,
+  "status": "passed"
 });
-formatter.step({
-  "line": 8,
-  "name": "This is a gmail login scenario",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Gmail_Tagging_Cucumber_Step_Definition.this_is_a_gmail_login_scenario()"
-});
-formatter.result({
-  "duration": 327222432,
+formatter.before({
+  "duration": 407715,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
-  "name": "Gmail send email scenario",
+  "line": 9,
+  "name": "Hooks and tagged hooks concept scenario-2",
   "description": "",
-  "id": "gmail-test-feature;gmail-send-email-scenario",
+  "id": "hooks-and-tagged-hooks-concept-feature;hooks-and-tagged-hooks-concept-scenario-2",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 10,
-      "name": "@GmailSendEmail"
-    },
-    {
-      "line": 10,
-      "name": "@SmokeTest"
-    },
-    {
-      "line": 10,
-      "name": "@RegressionTest"
+      "line": 8,
+      "name": "@SearchFeature"
     }
   ]
 });
 formatter.step({
-  "line": 13,
-  "name": "this is a gmail send email scenario",
+  "line": 10,
+  "name": "scenario-2-given",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 11,
+  "name": "scenario-2-when",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "scenario-2-then",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "Gmail_Tagging_Cucumber_Step_Definition.this_is_a_gmail_send_email_scenario()"
+  "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.scenario_2_given()"
 });
 formatter.result({
-  "duration": 81755,
+  "duration": 269317424,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.scenario_2_when()"
+});
+formatter.result({
+  "duration": 221907,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Hooks_And_Tagged_Hooks_Concept_Step_Definition.scenario_2_then()"
+});
+formatter.result({
+  "duration": 70430,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 279242,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 66537,
   "status": "passed"
 });
 });

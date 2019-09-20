@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.327304">
-    <testcase classname="Gmail test feature" name="Gmail login scenario" time="0.327222">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.270673">
+    <testcase classname="Hooks and tagged hooks concept feature" name="Hooks and tagged hooks concept scenario-2" time="0.270673">
         <system-out>
-            <![CDATA[Given This is a gmail login scenario........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Gmail test feature" name="Gmail send email scenario" time="0.000082">
-        <system-out>
-            <![CDATA[Given this is a gmail send email scenario...................................passed
+            <![CDATA[Given scenario-2-given......................................................passed
+When scenario-2-when........................................................passed
+Then scenario-2-then........................................................passed
 ]]>
         </system-out>
     </testcase>
